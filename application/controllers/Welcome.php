@@ -20,11 +20,36 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+        
+
+        $aaa = '連携されました';
+
+	        $header = $this->load->view('parts/header');
+
+        $this->load->view('welcome_message', $data = array(
+
+	        'header' => $header,
+	        	        'aaa' => $aaa,
+        
+        ));
+        $this->load->view('parts/footer');
+		//$this->load->view('welcome_message');
 	}
 
 		public function foo()
 	{
-		$this->load->view('company');
+        $aaa = '連携されました';
+
+	        $header = $this->load->view('parts/header');
+
+        $this->load->view('company', $data = array(
+
+	        'header' => $header,
+	        	        'aaa' => $aaa,
+        
+        ));
+        $this->load->view('parts/footer');
+		//$this->load->view('welcome_message');
+
 	}
 }

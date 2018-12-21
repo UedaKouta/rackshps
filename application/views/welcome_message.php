@@ -24,29 +24,6 @@
 
 <div id="container">
 
-<header>
-<h1 id="logo"><a href="index.html"><img src="<?php echo base_url(); ?>rackshp/images/logo.png" alt="Sample Company"></a></h1>
-<!--大きな端末用（801px以上端末）メニュー-->
-<nav id="menubar">
-<ul>
-<li><a href="index.php/Welcome/foo">会社概要<span>Company</span></a></li>
-<li><a href="service.html">サービス紹介<span>Service</span></a></li>
-<li><a href="recruit.html">採用情報<span>Recruit</span></a></li>
-<li><a href="contact.html">お問い合わせ<span>Contact</span></a></li>
-</ul>
-</nav>
-</header>
-
-<!--小さな端末用（800px以下端末）メニュー-->
-<nav id="menubar-s">
-<ul>
-<li><a href="company.html">会社概要<span>Company</span></a></li>
-<li><a href="service.html">サービス紹介<span>Service</span></a></li>
-<li><a href="recruit.html">採用情報<span>Recruit</span></a></li>
-<li><a href="contact.html">お問い合わせ<span>Contact</span></a></li>
-</ul>
-</nav>
-
 <aside id="mainimg">
 <img src="<?php echo base_url(); ?>rackshp/images/top1.jpg" alt="" id="slide0">
 <img src="<?php echo base_url(); ?>rackshp/images/top1.jpg" alt="" id="slide1">
@@ -61,7 +38,7 @@
 <section>
 
 <h2>テンプレートのご利用前に必ずお読み下さい
-<?php echo base_url(); ?>
+
 </h2>
 
 <h3>利用規約のご案内</h3>
@@ -143,11 +120,6 @@
 
 </div>
 <!--/container-->
-
-<footer>
-<small>Copyright&copy; <a href="index.html">Sample Company</a> All Rights Reserved.</small>
-<span class="pr">《<a href="http://template-party.com/" target="_blank">Web Design:Template-Party</a>》</span>
-</footer>
 
 <!--お知らせ欄の開閉処理条件　800px以下-->
 <script type="text/javascript">
