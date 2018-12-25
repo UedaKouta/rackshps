@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class Top extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -34,22 +34,5 @@ class Welcome extends CI_Controller {
         ));
         $this->load->view('parts/footer');
 		//$this->load->view('welcome_message');
-	}
-
-		public function foo()
-	{
-        $aaa = '連携されました';
-
-	        $header = $this->load->view('parts/header');
-
-        $this->load->view('company', $data = array(
-
-	        'header' => $header,
-	        	        'aaa' => $aaa,
-        
-        ));
-        $this->load->view('parts/footer');
-		//$this->load->view('welcome_message');
-
 	}
 }

@@ -11,11 +11,11 @@
 <nav id="menubar">
 <ul>
 <!-- <li><a href="Welcome/foo">会社概要<span>Company</span></a></li> -->
-<li><a href="<?php echo base_url(); ?>rackshp/CompanyInfo">会社概要<span>Company</span></a></li>
+<li><a href="<?php echo base_url(); ?>rackshp/Top/foo">会社概要<span>Company</span></a></li>
 
 <li><a href="service.html">サービス紹介<span>Service</span></a></li>
-<li><a href="<?php echo base_url(); ?>rackshp/Recruit">採用情報<span>Recruit</span></a></li>
-<li><a href="<?php echo base_url(); ?>rackshp/ContactForm">お問い合わせ<span>Contact</span></a></li>
+<li><a href="recruit.html">採用情報<span>Recruit</span></a></li>
+<li><a href="contact.html">お問い合わせ<span>Contact</span></a></li>
 </ul>
 </nav>
 </header>
@@ -23,10 +23,10 @@
 <!--小さな端末用（800px以下端末）メニュー-->
 <nav id="menubar-s">
 <ul>
-<li><a href="<?php echo base_url(); ?>rackshp/CompanyInfo">会社概要<span>Company</span></a></li>
+<li><a href="company.html">会社概要<span>Company</span></a></li>
 <li><a href="service.html">サービス紹介<span>Service</span></a></li>
-<li><a href="<?php echo base_url(); ?>rackshp/Recruit">採用情報<span>Recruit</span></a></li>
-<li><a href="<?php echo base_url(); ?>rackshp/ContactForm">お問い合わせ<span>Contact</span></a></li>
+<li><a href="recruit.html">採用情報<span>Recruit</span></a></li>
+<li><a href="contact.html">お問い合わせ<span>Contact</span></a></li>
 </ul>
 </nav>
 

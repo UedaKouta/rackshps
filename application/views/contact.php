@@ -19,28 +19,6 @@
 
 <div id="container">
 
-<header>
-<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="Sample Company"></a></h1>
-<nav id="menubar">
-<ul>
-<li><a href="company.html">会社概要<span>Company</span></a></li>
-<li><a href="service.html">サービス紹介<span>Service</span></a></li>
-<li><a href="recruit.html">採用情報<span>Recruit</span></a></li>
-<li><a href="contact.html">お問い合わせ<span>Contact</span></a></li>
-</ul>
-</nav>
-</header>
-
-<!--小さな端末用（800px以下端末）メニュー-->
-<nav id="menubar-s">
-<ul>
-<li><a href="company.html">会社概要<span>Company</span></a></li>
-<li><a href="service.html">サービス紹介<span>Service</span></a></li>
-<li><a href="recruit.html">採用情報<span>Recruit</span></a></li>
-<li><a href="contact.html">お問い合わせ<span>Contact</span></a></li>
-</ul>
-</nav>
-
 <div id="contents">
 
 <div id="main">
@@ -178,11 +156,6 @@
 
 </div>
 <!--/container-->
-
-<footer>
-<small>Copyright&copy; <a href="index.html">Sample Company</a> All Rights Reserved.</small>
-<span class="pr">《<a href="http://template-party.com/" target="_blank">Web Design:Template-Party</a>》</span>
-</footer>
 
 <!--スマホ用メニューバー-->
 <img src="images/icon_bar.png" width="20" height="23" alt="" id="menubar_hdr" class="close">
