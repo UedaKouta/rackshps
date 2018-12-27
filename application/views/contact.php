@@ -12,7 +12,9 @@
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
+<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
 <script type="text/javascript" src="js/openclose.js"></script>
+
 </head>
 
 <body class="s-n">
@@ -28,18 +30,18 @@
 <h2>お問い合わせ</h2>
 <p><strong class="color1">※以下はフォームサンプルです。フォーム専用のプログラムがないと動作しません</strong>のでご注意下さい。当サイトでもお問い合わせフォーム制作も承っております。<a href="http://template-party.com/file/form.html">詳しくはこちら</a>をご覧下さい。</p>
 <p>タブレットとスマホ環境では、subブロックが非表示になります。その他のページでも非表示にしたい場合、html側の&lt;body&gt;タグを&lt;body class=&quot;s-n&quot;&gt;として下さい。もしclass指定が２つ以上ある場合は半角スペースで区切って入力すればOKです。例&lt;body class=&quot;s-n c1&quot;&gt;など。</p>
-
+<form method="post">
 <table class="ta1">
 <tr>
 <th colspan="2" class="tamidashi">※マークは入力必須です</th>
 </tr>
 <tr>
 <th>お名前※</th>
-<td><input type="text" name="お名前" size="30" class="ws"></td>
+<td><input type="text" name="name" size="30" class="ws"></td>
 </tr>
 <tr>
 <th>メールアドレス※</th>
-<td><input type="text" name="メールアドレス" size="30" class="ws"></td>
+<td><input type="text" name="mail" size="30" class="ws"></td>
 </tr>
 <tr>
 <th>ご住所(都道府県)</th>
@@ -97,7 +99,7 @@
 </tr>
 <tr>
 <th>ご住所(市区町村以下)</th>
-<td><input type="text" name="ご住所(市区町村以下)" size="30" class="wl"></td>
+<td><input type="text" name="address" size="30" class="wl"></td>
 </tr>
 <tr>
 <th>お問い合わせ項目※</th>
@@ -111,17 +113,18 @@
 </tr>
 <tr>
 <th>お問い合わせ詳細※</th>
-<td><textarea name="お問い合わせ詳細" cols="30" rows="10" class="wl"></textarea></td>
+<td><textarea name="content" cols="30" rows="10" class="wl"></textarea></td>
 </tr>
 </table>
 
 <p class="c">
-<input type="submit" value="内容を確認する">
+  <button type="button" onclick="submitAction('<?php echo base_url(); ?>rackshp/ContactForm/sendMail')">承認</button>
 </p>
-
+</form>
 </section>
 
 </div>
+
 <!--/main-->
 
 <div id="sub">
@@ -163,6 +166,12 @@
 if (OCwindowWidth() < 480) {
 	open_close("menubar_hdr", "menubar");
 }
+
+function submitAction(url) {
+  $('form').attr('action', url);
+  $('form').submit();
+}
+
 </script>
 
 </body>
