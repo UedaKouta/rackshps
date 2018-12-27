@@ -46,7 +46,7 @@
 <tr>
 <th>ご住所(都道府県)</th>
 <td>
-<select name="ご住所(都道府県)">
+<select name="prefectures">
 <option value="" selected="selected">都道府県選択</option>
 <option value="北海道">北海道</option>
 <option value="青森県">青森県</option>
@@ -102,14 +102,8 @@
 <td><input type="text" name="address" size="30" class="wl"></td>
 </tr>
 <tr>
-<th>お問い合わせ項目※</th>
-<td>
-<label><input type="checkbox" name="お問い合わせ項目" value="お問い合わせ項目１">お問い合わせ項目１</label><br>
-<label><input type="checkbox" name="お問い合わせ項目" value="お問い合わせ項目２">お問い合わせ項目２</label><br>
-<label><input type="checkbox" name="お問い合わせ項目" value="お問い合わせ項目３">お問い合わせ項目３</label><br>
-<label><input type="checkbox" name="お問い合わせ項目" value="お問い合わせ項目４">お問い合わせ項目４</label><br>
-<label><input type="checkbox" name="お問い合わせ項目" value="お問い合わせ項目５">お問い合わせ項目５</label>
-</td>
+<th>電話番号※</th>
+<td><input type="text" name="tel" size="30" class="ws"></td>
 </tr>
 <tr>
 <th>お問い合わせ詳細※</th>

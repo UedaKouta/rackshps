@@ -3,21 +3,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class ContactForm extends CI_Controller {
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
 	public function index()
 	{
         
@@ -41,15 +26,21 @@ class ContactForm extends CI_Controller {
 
 	        $header = $this->load->view('parts/header');
 
-log_message('error','aaaaaaaa');
-
 			mb_language("Japanese");
 			mb_internal_encoding("UTF-8");
  
-			$to = $_POST['name'];
-			//$to ='ueda.racksoscar@pep.ne.jp';
-			$title = $_POST['address'];
-			$content = $_POST['content'];
+			$name = $_POST['name'];
+			$to ='ueda.racksoscar@pep.ne.jp';
+			$title = "お問い合わせメール";
+			$address = $_POST['address'];
+			$tel = $_POST['tel'];
+			$prefectures = $_POST['prefectures'];
+		
+			$content =  $name."\n";
+			$content .= $prefectures.$address."\n";
+		
+			$content .= $tel."\n";
+			$content .= $_POST['content'];
 
  //mb_send_mail($to, $title, $content, $from);
 			
