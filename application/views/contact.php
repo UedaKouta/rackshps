@@ -19,19 +19,15 @@
 
 <body class="s-n">
 
-<div id="container">
+<div id="wrapper">
 
-<div id="contents">
+<section id="main">
+  <section id="post-250" class="content">
 
-<div id="main">
-
-<section>
-
-<h2>お問い合わせ</h2>
-<p><strong class="color1">※以下はフォームサンプルです。フォーム専用のプログラムがないと動作しません</strong>のでご注意下さい。当サイトでもお問い合わせフォーム制作も承っております。<a href="http://template-party.com/file/form.html">詳しくはこちら</a>をご覧下さい。</p>
-<p>タブレットとスマホ環境では、subブロックが非表示になります。その他のページでも非表示にしたい場合、html側の&lt;body&gt;タグを&lt;body class=&quot;s-n&quot;&gt;として下さい。もしclass指定が２つ以上ある場合は半角スペースで区切って入力すればOKです。例&lt;body class=&quot;s-n c1&quot;&gt;など。</p>
-<form method="post">
-<table class="ta1">
+    <article class="post">
+      <p class="dateLabel"><time datetime="2014-09-01">2014/09/01</time></p>
+<h3>お問い合わせ</h3>
+     <table>
 <tr>
 <th colspan="2" class="tamidashi">※マークは入力必須です</th>
 </tr>
@@ -112,61 +108,56 @@
 </table>
 
 <p class="c">
-  <button type="button" onclick="submitAction('<?php echo base_url(); ?>rackshp/ContactForm/sendMail')">承認</button>
+  <button type="button" onclick="submitAction('<?php echo base_url(); ?>unda/ContactForm/sendMail')">承認</button>
 </p>
 </form>
-</section>
 
-</div>
+                   
 
-<!--/main-->
+				</article>
+			</section>
+			<div class="pagenav">
+				<span class="prev"><a href="sample.html" rel="prev">&laquo; 前のページ</a></span>
+				<span class="next"></span>
+			</div>
+		</section>
 
-<div id="sub">
-
-<nav class="box1">
-<h2>SUB MENU</h2>
-<ul class="submenu">
-<li><a href="faq.html">よく頂く質問</a></li>
-<li><a href="link.html">リンク集</a></li>
-<li><a href="#">主要メニュー</a></li>
-<li><a href="#">主要メニュー</a></li>
-<li><a href="#">主要メニュー</a></li>
-</ul>
-</nav>
-
-<div class="box1">
-<h2>この見出しはh2タグです</h2>
-<p>このボックスは、class="box1"と指定すれば出ます。</p>
-</div>
-<!--/box1-->
-
-<h2>この見出しはh2タグです</h2>
-<p>ここのスペースも使えます。</p>
-
-</div>
-<!--/sub-->
-
+		<aside id="sidebar">
+			<section>
+				<h3 class="heading"><span>最近の投稿</span></h3>
+				<article>
+					<ul>
+						<li><a href="sample.html">ホームページサンプル株式会社の取り組み</a></li>
+						<li><a href="sample.html">自然との調和を目指す企業</a></li>
+						<li><a href="sample.html">ホームページサンプル株式会社の取り組み</a></li>
+						<li><a href="sample.html">ホームページサンプル株式会社の取り組み</a></li>
+						<li><a href="sample.html">自然との調和を目指す企業</a></li>
+					</ul>
+				</article>
+			</section>
+			<section>
+				<h3 class="heading"><span>アーカイブ</span></h3>
+				<article>
+					<ul>
+						<li><a href="sample.html">2014年9月</a></li>
+						<li><a href="sample.html">2014年7月</a></li>
+						<li><a href="sample.html">2014年6月</a></li>
+					</ul>
+				</article>
+			</section>
+			<section>
+				<h3 class="heading"><span>リンク集</span></h3>
+				<article>
+					<ul class="menu">
+						<li><a href="https://www.google.com/?hl=ja&#038;gws_rd=ssl">Google</a></li>
+						<li><a href="http://www.yahoo.co.jp/">Yahoo!JAPAN</a></li>
+						<li><a href="http://www.amazon.co.jp/">Amazon</a></li>
+						<li><a href="http://www.rakuten.co.jp/">楽天市場</a></li>
+					</ul>
+				</article>
+			</section>
+		</aside>
 <p id="pagetop"><a href="#">↑</a></p>
-
-</div>
-<!--/contents-->
-
-</div>
-<!--/container-->
-
-<!--スマホ用メニューバー-->
-<img src="images/icon_bar.png" width="20" height="23" alt="" id="menubar_hdr" class="close">
-<script type="text/javascript">
-if (OCwindowWidth() < 480) {
-	open_close("menubar_hdr", "menubar");
-}
-
-function submitAction(url) {
-  $('form').attr('action', url);
-  $('form').submit();
-}
-
-</script>
 
 </body>
 </html>

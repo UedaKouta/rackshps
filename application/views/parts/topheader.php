@@ -6,12 +6,12 @@
 
 
 <header>
-<h1 id="logo"><a href="<?php echo base_url(); ?>rackshp/Top/index"><img src="<?php echo base_url(); ?>rackshp/images/logo.png" alt="Sample Company"></a></h1>
+<h1 id="logo"><a href="<?php echo base_url(); ?>unda/Top/index"><img src="<?php echo base_url(); ?>unda/images/logo.png" alt="Sample Company"></a></h1>
 <!--大きな端末用（801px以上端末）メニュー-->
 <nav id="menubar">
 <ul>
 <!-- <li><a href="Welcome/foo">会社概要<span>Company</span></a></li> -->
-<li><a href="<?php echo base_url(); ?>rackshp/Top/foo">会社概要<span>Company</span></a></li>
+<li><a href="<?php echo base_url(); ?>unda/Top/foo">会社概要<span>Company</span></a></li>
 
 <li><a href="service.html">サービス紹介<span>Service</span></a></li>
 <li><a href="recruit.html">採用情報<span>Recruit</span></a></li>

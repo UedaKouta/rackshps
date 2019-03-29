@@ -17,12 +17,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* -------------------------------------------------------------- */
 
 body{
-color:#fffaf2;
+color:#555;
 font-size:13px;
 font-family:verdana,"ヒラギノ丸ゴ ProN W4","Hiragino Maru Gothic ProN","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
 line-height:1.5;
 -webkit-text-size-adjust:100%;
-background:#555;
 }
 
 
@@ -71,7 +70,7 @@ float:left;
 }
 
 .logo a{
-color:#fffaf2;
+color:#555;
 }
 
 .logo p{float:left;}
@@ -254,7 +253,7 @@ margin-bottom:0px;
 }
 
 #sidebar li a{
-color:#fffaf2;
+color:#555;
 font-size:12px;
 display:block;
 }
@@ -274,7 +273,7 @@ clear:both;
 }
 
 #footer a{
-color:#fffaf2;
+color:#555;
 }
 
 #footer a:hover{
@@ -326,7 +325,7 @@ padding:20px 0 10px 0;
 text-align:center;
 font-style:normal;
 font-size:10px;
-color:#fffaf2;
+color:#555;
 }
 
 
@@ -416,7 +415,6 @@ text-align:left;
 padding:8px;
 border:1px solid #D6D6D6;
 line-height:20px;
-color: #000
 }
 
 .post table th{
@@ -482,7 +480,7 @@ img.alignleft{margin:0 7px 2px 0;}
 	}
 
 	#mainNav li a{
-	color:#fffaf2;
+	color:#555;
 	display: block;
 	text-align: center;
 	_float:left;
@@ -531,7 +529,7 @@ img.alignleft{margin:0 7px 2px 0;}
 	#mainNav li li span{padding:0 10px;}
 	
 	#mainNav li.current-menu-item a{
-	border-color:#fffaf2;
+	border-color:#555;
 	}
 
 	#mainNav li.current-menu-item a,#mainNav li a:hover,#mainNav li.current-menu-item li a:hover{
@@ -602,7 +600,7 @@ img.alignleft{margin:0 7px 2px 0;}
 	}
 
 	#mainNav a.menu{
-	color:#fffaf2;
+	color:#555;
 	width:100%;
 	display:block;
 	height:40px;
@@ -639,7 +637,7 @@ img.alignleft{margin:0 7px 2px 0;}
 	}
 
 	#mainNav li a,#mainNav li.current-menu-item li a{
-	color:#fffaf2;
+	color:#555;
 	display: block;
 	padding:15px 10px;
 	text-align:left;
@@ -653,7 +651,7 @@ img.alignleft{margin:0 7px 2px 0;}
 	#mainNav li li:last-child a{border-bottom:1px dashed #ccc;}
  
 	#mainNav li.current-menu-item a,#mainNav li a:hover,#mainNav li.current-menu-item a,#mainNav li a:active, #mainNav li li.current-menu-item a, #mainNav li.current-menu-item li a:hover, #mainNav li.current-menu-item li a:active{
-	color:#fffaf2;
+	color:#555;
 	}
 
 	#mainNav li li{
@@ -725,7 +723,6 @@ img.alignleft{margin:0 7px 2px 0;}
 	.box img{max-width:100px;}
 	#mainBanner h2,#mainBanner p{font-size:80%;}
 }
-
 /*PAGE TOP設定
 ---------------------------------------------------------------------------*/
 #pagetop {

@@ -3,204 +3,80 @@
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>ビジネス・企業向け無料ホームページテンプレート tp_biz35</title>
+<title>会社概要|株式会社けっし</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="ここにサイト説明を入れます">
 <meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
-<link rel="stylesheet" href="css/style.css">
+<link href="<?php echo base_url(); ?>unda/css/style.css" rel="stylesheet" type="text/css" />
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
-<script type="text/javascript" src="js/openclose.js"></script>
 </head>
 
 <body>
 
-<div id="container">
 
-<header>
-<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="Sample Company"></a></h1>
-<!--大きな端末用（801px以上端末）メニュー-->
-<nav id="menubar">
-<ul>
-<li><a href="company.html">会社概要<span>Company</span></a></li>
-<li><a href="service.html">サービス紹介<span>Service</span></a></li>
-<li><a href="recruit.html">採用情報<span>Recruit</span></a></li>
-<li><a href="contact.html">お問い合わせ<span>Contact</span></a></li>
-</ul>
-</nav>
-</header>
+	<div id="wrapper">
 
-<!--小さな端末用（800px以下端末）メニュー-->
-<nav id="menubar-s">
-<ul>
-<li><a href="company.html">会社概要<span>Company</span></a></li>
-<li><a href="service.html">サービス紹介<span>Service</span></a></li>
-<li><a href="recruit.html">採用情報<span>Recruit</span></a></li>
-<li><a href="contact.html">お問い合わせ<span>Contact</span></a></li>
-</ul>
-</nav>
+		<section id="main">
+			<section id="post-250" class="content">
 
-<div id="contents">
+				<article class="post">
+				<p class="dateLabel"><time datetime="2014-09-01">2014/09/01</time></p>
+					<h3>最新技術と自然との調和を目指します</h3>
+					<p><img src="images/banners/sample.jpg" alt="" width="260" height="113" class="alignright size-full wp-image-207" />ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす企業を目指します。ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす企業を目指します。ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす。革新的な技術で世の中を動かす企業を目指します。ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす。革新的な技術で世の中を動かす企業を目指します。</p><p>ホームページサンプル株式会社では最新技術と自然とのホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす。革新的な技術で世の中を動かす企業を目指します。ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす。</p><p>ホームページサンプル株式会社では最新技術と自然との調ホームページサンプルホームページ株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす。革新的な技術で世の中を動かす企業を目指します。ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす。</p>
+					<h3>ホームページサンプル株式会社の取り組み</h3>
+					<p><img src="images/banners/sample2.jpg" alt="" width="260" height="113" class="alignleft size-full wp-image-210" />ホームページサンプルホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす企業を目指します。ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす。</p><p>革新的な技術で世の中を動かす企業を目指します。ホームページ最新技術と自然との調和を目指します。革新的な技術で世の中を動かす企業を目指します。ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす。<br clear="all" /></p>
+					<h3>引用文サンプル</h3>
+					<p>ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす企業を目指します。ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす企業を目指します。</p>
+					<blockquote><p>ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす企業を目指します。ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす企業を目指します。ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす。</p></blockquote><p>ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす企業を目指します。ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす企業を目指します。ホームページサンプル株式会社では最新技術と自然との調和を目指します。革新的な技術で世の中を動かす。革新的な技術で世の中を動かす。</p>
+				
 
-<div id="main">
+				</article>
+			</section>
+			<div class="pagenav">
+				<span class="prev"><a href="sample.html" rel="prev">&laquo; 前のページ</a></span>
+				<span class="next"></span>
+			</div>
+		</section>
 
-<section>
-
-<h2>サービスのご案内</h2>
-<p>サービスのご案内。</p>
-
-<div class="list">
-<a href="service2.html">
-<h4>サービス名</h4>
-<figure><img src="images/sample1.jpg" alt=""></figure>
-<table>
-<tr>
-<th>商品名</th>
-<td>製品A</td>
-<th>価格</th>
-<td>2,300円</td>
-</tr>
-<tr>
-<th>サイズ</th>
-<td>50kg</td>
-<th>特徴</th>
-<td>製品の特長を書きます。</td>
-</tr>
-</table>
-<p>製品の説明をここに入れます。</p>
-</a>
-</div>
-
-<div class="list">
-<a href="service2.html">
-<h4>サービス名</h4>
-<figure><img src="images/sample1.jpg" alt=""></figure>
-<table>
-<tr>
-<th>商品名</th>
-<td>製品A</td>
-<th>価格</th>
-<td>2,300円</td>
-</tr>
-<tr>
-<th>サイズ</th>
-<td>50kg</td>
-<th>特徴</th>
-<td>製品の特長を書きます。</td>
-</tr>
-</table>
-<p>右下の赤い帯のマークはhtml側で直接テキストの変更ができます。色はcssフォルダのstyle.cssで変更可。<br>
-<span class="color1">&lt;span class=&quot;option1&quot;&gt;オプション１&lt;/span&gt;</span><br>
-※IE8以下は斜めには表示されず、横長表示されます。</p>
-<span class="option1">オプション１</span>
-</a>
-</div>
-
-<div class="list">
-<a href="service2.html">
-<h4>サービス名</h4>
-<figure><img src="images/sample1.jpg" alt=""></figure>
-<table>
-<tr>
-<th>商品名</th>
-<td>製品A</td>
-<th>価格</th>
-<td>2,300円</td>
-</tr>
-<tr>
-<th>サイズ</th>
-<td>50kg</td>
-<th>特徴</th>
-<td>製品の特長を書きます。</td>
-</tr>
-</table>
-<p>右下の青い帯のマークはhtml側で直接テキストの変更ができます。色はcssフォルダのstyle.cssで変更可。<br>
-<span class="color1">&lt;span class=&quot;option2&quot;&gt;オプション２&lt;/span&gt;</span><br>
-※IE8以下は斜めには表示されず、横長表示されます。</p>
-<span class="option2">オプション２</span>
-</a>
-</div>
-
-<div class="list">
-<a href="service2.html">
-<h4>サービス名</h4>
-<p>画像なしでも使えます。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。</p>
-</a>
-</div>
-
-<div class="list">
-<a href="service2.html">
-<h4>サービス名</h4>
-<table>
-<tr>
-<th>商品名</th>
-<td>製品A</td>
-<th>価格</th>
-<td>2,300円</td>
-</tr>
-<tr>
-<th>サイズ</th>
-<td>50kg</td>
-<th>特徴</th>
-<td>製品の特長を書きます。</td>
-</tr>
-</table>
-<p>画像なし＆テーブルだけでも使えます。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。</p>
-</a>
-</div>
-
-</section>
-
-</div>
-<!--/main-->
-
-<div id="sub">
-
-<nav class="box1">
-<h2>SUB MENU</h2>
-<ul class="submenu">
-<li><a href="faq.html">よく頂く質問</a></li>
-<li><a href="link.html">リンク集</a></li>
-<li><a href="#">主要メニュー</a></li>
-<li><a href="#">主要メニュー</a></li>
-<li><a href="#">主要メニュー</a></li>
-</ul>
-</nav>
-
-<div class="box1">
-<h2>この見出しはh2タグです</h2>
-<p>このボックスは、class="box1"と指定すれば出ます。</p>
-</div>
-<!--/box1-->
-
-<h2>この見出しはh2タグです</h2>
-<p>ここのスペースも使えます。</p>
-
-</div>
-<!--/sub-->
-
+		<aside id="sidebar">
+			<section>
+				<h3 class="heading"><span>最近の投稿</span></h3>
+				<article>
+					<ul>
+						<li><a href="sample.html">ホームページサンプル株式会社の取り組み</a></li>
+						<li><a href="sample.html">自然との調和を目指す企業</a></li>
+						<li><a href="sample.html">ホームページサンプル株式会社の取り組み</a></li>
+						<li><a href="sample.html">ホームページサンプル株式会社の取り組み</a></li>
+						<li><a href="sample.html">自然との調和を目指す企業</a></li>
+					</ul>
+				</article>
+			</section>
+			<section>
+				<h3 class="heading"><span>アーカイブ</span></h3>
+				<article>
+					<ul>
+						<li><a href="sample.html">2014年9月</a></li>
+						<li><a href="sample.html">2014年7月</a></li>
+						<li><a href="sample.html">2014年6月</a></li>
+					</ul>
+				</article>
+			</section>
+			<section>
+				<h3 class="heading"><span>リンク集</span></h3>
+				<article>
+					<ul class="menu">
+						<li><a href="https://www.google.com/?hl=ja&#038;gws_rd=ssl">Google</a></li>
+						<li><a href="http://www.yahoo.co.jp/">Yahoo!JAPAN</a></li>
+						<li><a href="http://www.amazon.co.jp/">Amazon</a></li>
+						<li><a href="http://www.rakuten.co.jp/">楽天市場</a></li>
+					</ul>
+				</article>
+			</section>
+		</aside>
 <p id="pagetop"><a href="#">↑</a></p>
 
-</div>
-<!--/contents-->
-
-</div>
-<!--/container-->
-
-<footer>
-<small>Copyright&copy; <a href="index.html">Sample Company</a> All Rights Reserved.</small>
-<span class="pr">《<a href="http://template-party.com/" target="_blank">Web Design:Template-Party</a>》</span>
-</footer>
-
-<!--メニューの３本バー-->
-<div id="menubar_hdr" class="close"><span></span><span></span><span></span></div>
-<!--メニューの開閉処理条件設定　800px以下-->
-<script type="text/javascript">
-if (OCwindowWidth() <= 800) {
-	open_close("menubar_hdr", "menubar-s");
-}
-</script>
 </body>
 </html>

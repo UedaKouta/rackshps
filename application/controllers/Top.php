@@ -24,7 +24,7 @@ class Top extends CI_Controller {
 
         $aaa = '連携されました';
 
-	        $header = $this->load->view('parts/header');
+	    $header = $this->load->view('parts/header');
 
         $this->load->view('welcome_message', $data = array(
 

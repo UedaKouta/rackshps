@@ -6,7 +6,7 @@
 			"type": "php",
 			"request": "launch",
 			"port": 9000,
-			"serverSourceRoot": "/Applications/MAMP/htdocs/rackshp",　
+			"serverSourceRoot": "/Applications/MAMP/htdocs/unda",　
 "localSourceRoot": "${workspaceRoot}"
 		},
 		{
