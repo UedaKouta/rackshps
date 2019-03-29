@@ -6,7 +6,7 @@
 
 
 <header id="header" role="banner">
-		<h1>株式会社UNDA</h1>
+		<h1>株式会社 UNDA</h1>
 		<div class="logo">
 			<a href="<?php echo base_url(); ?>unda/Top/index" title="株式会社UNDA" rel="home">Company Name<span>Your Company Slogan</span></a>
 		</div>
